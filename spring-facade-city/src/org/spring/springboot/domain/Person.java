@@ -2,14 +2,23 @@ package org.spring.springboot.domain;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
 public class Person implements Serializable{
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	@Id
+	@Column(nullable=false)
 	private String id;
+	
+	@Column(nullable=false)
 	private String name;
+	@Column(nullable=false)
 	private String sex;
 	public Person(){}
 	public Person(String id, String name, String sex) {

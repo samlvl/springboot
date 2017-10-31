@@ -20,4 +20,10 @@ public class Ptestcontroller {
 		  
 		return personDubboServiceImpl.findPersonById("1");
 	}
+	
+	@RequestMapping(value="/savePserson",method=RequestMethod.GET)
+	public Person savePserson()
+	{
+		return	personDubboServiceImpl.savePserson(new Person("2", "sam2", "男"));		
+	}
 }

@@ -14,4 +14,6 @@ public interface PersonDubboService2 {
      * @param cityName
      */
   public  Person findPersonById(String Id);
+  
+  public Person savePserson(Person person);
 }
