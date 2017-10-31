@@ -20,7 +20,7 @@
     <dubbo:protocol name="${dubbo.protocol.name}" port="${dubbo.protocol.port}" />  
       
     <dubbo:service interface="org.spring.springboot.dubbo.PersonDubboService2"  
-        ref="personDubboServiceImpl" retries="0" timeout="6000" />  
+        ref="personDubboServiceImpl" retries="0" timeout="6000"  />  
       
     <dubbo:reference id="cityDubboServiceImpl" interface="org.spring.springboot.dubbo.CityDubboService" check="false" />  
 </beans>  
