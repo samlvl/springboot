@@ -17,9 +17,9 @@
 	</parent>
 	<modules>
 		
-		<module>../config</module>
+		<module>../springbootconfig</module>
 		<module>../springbootconsumers</module>
-		<module>../ProvidersC</module>
+		<module>../springbootprovider</module>
 		<module>../spring-facade-city</module>
 	</modules>
 

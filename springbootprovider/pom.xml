@@ -11,11 +11,11 @@
 
 
 	<groupId>com.gcl.web</groupId>
-	<artifactId>ProvidersC</artifactId>
+	<artifactId>springbootprovider</artifactId>
 	<version>${ProvidersC.version}</version>
 	<packaging>jar</packaging>
 
-	<name>Providers</name>
+	<name>springbootprovider</name>
 	<url>http://maven.apache.org</url>
     
 	<dependencies>
@@ -71,7 +71,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.gcl.web</groupId>
-			<artifactId>config</artifactId>
+			<artifactId>springbootconfig</artifactId>
 			<version>${my-config.version}</version>
 		</dependency>
 	</dependencies>

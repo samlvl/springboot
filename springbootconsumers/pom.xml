@@ -75,7 +75,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.gcl.web</groupId>
-			<artifactId>config</artifactId>
+			<artifactId>springbootconfig</artifactId>
 			<version>${my-config.version}</version>
 		</dependency>
 	</dependencies>
